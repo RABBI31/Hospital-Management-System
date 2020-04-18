@@ -1,0 +1,194 @@
+/*index design*/
+.body_design {
+    background-image: url("../img/body_image.png");
+}
+
+.div_a {
+    background-color: lightgray;
+    width: 40%;
+    height: 350px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 200px;
+    padding-top: 20px;
+    opacity: .9;
+}
+
+.text_box {
+    margin-left: 180px;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    border: 3px solid red;
+}
+
+.button_view {
+    width: 200px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: purple;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 120px;
+    margin-right: 30px;
+    color: white;
+}
+
+.button_result {
+    width: 200px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: dodgerblue;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+}
+
+/*view page design*/
+.body_design_view {
+    background-image: url("../img/view_img.jpg");
+}
+
+.header_text {
+    font-size: 50px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.tbl_div {
+    background-color: purple;
+    padding: 20px;
+}
+
+.table {
+    width: 100%;
+    height: 350px;
+}
+
+.tbl_body {
+    text-align: center;
+}
+
+table tbody tr {
+    border: 1px solid deepskyblue;
+}
+
+table thead tr {
+    background-color: white;
+    height: 40px;
+    font-size: 20px;
+    border: 1px solid deepskyblue;
+}
+
+.button_back {
+    width: 250px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    float: right;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.searchTerm {
+    margin-left: 34%;
+    margin-bottom: 20px;
+    width: 30%;
+    border: 3px solid #00B4CC;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+}
+
+.searchTerm:focus{
+    color: #00B4CC;
+}
+
+.searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+.reloadButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 5px;
+}
+.createButton {
+    width: 150px;
+    height: 36px;
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 5px;
+    float: right;
+    margin-bottom: 10px;
+}
+.deleteButton {
+    width: 60px;
+    height: 36px;
+    border: 1px solid red;
+    background: red;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.edit_input{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+.edit_table{
+    font-family: Arial;
+    font-size:20px;
+    font-weight: bolder;
+    margin: 0 auto;
+}
+.edit_table tr th{
+    text-align: right;
+}
